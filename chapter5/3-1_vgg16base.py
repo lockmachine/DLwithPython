@@ -40,4 +40,5 @@ def extract_features(directory, sample_count):
             # ジェネレータはデータを無限ループで生成するため、画像を一通り処理したらbreakしなければならない
             break
     return features, labels
+
     
